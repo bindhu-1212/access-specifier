@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+class Line
+{
+   double width;
+    public:
+    double length;
+    void set(double a);
+    double get();
+};
+void Line ::set(double a)
+{
+    width  = a;
+}
+double Line ::get()
+{
+    return  width;
+}
+int main()
+{
+    Line l;
+l.set(56.464);
+cout<<" the value is "<<l.get();
+l.length=84.353;
+cout<<" the new value "<<l.length;
+}
